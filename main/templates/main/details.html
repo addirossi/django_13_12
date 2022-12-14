@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ product.name}}</title>
+</head>
+<body>
+    <h2>{{ product.name }}</h2>
+    <p>{{ product.description }}</p>
+    <h3>{{ product.price }}</h3>
+  <a href="{% url 'list' %}"><button>Перейти на список товаров</button></a>
+</body>
+</html>
